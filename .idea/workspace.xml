@@ -36,8 +36,8 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="JUnit.BeerServiceTest">
-    <configuration name="BeerControllerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BeerControllerTest">
+    <configuration name="BeerControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projetoapibeer" />
       <extension name="coverage">
         <pattern>
@@ -52,8 +52,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeerControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="beerstock" />
+    <configuration name="BeerControllerTest.whenDELETEIsCalledWithInvalidIDThenNotFoundStatusIsReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projetoapibeer" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="one.digitalinnovation.beerstock.controller.*" />
@@ -62,29 +62,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="one.digitalinnovation.beerstock.controller" />
       <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.beerstock.controller.BeerControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeerControllerTest.whenGETIsCalledWithoutRegisteredNameThenNotFoundStatusIsReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="beerstock" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="one.digitalinnovation.beerstock.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="one.digitalinnovation.beerstock.controller" />
-      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.beerstock.controller.BeerControllerTest" />
-      <option name="METHOD_NAME" value="whenGETIsCalledWithoutRegisteredNameThenNotFoundStatusIsReturned" />
+      <option name="METHOD_NAME" value="whenDELETEIsCalledWithInvalidIDThenNotFoundStatusIsReturned" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeerControllerTest.whenPOSTIsCalledThenABeerIsCreated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="beerstock" />
+    <configuration name="BeerControllerTest.whenDELETEIsCalledWithValidIDThenNoContentStatusIsReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projetoapibeer" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="one.digitalinnovation.beerstock.controller.*" />
@@ -93,13 +78,29 @@
       </extension>
       <option name="PACKAGE_NAME" value="one.digitalinnovation.beerstock.controller" />
       <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.beerstock.controller.BeerControllerTest" />
-      <option name="METHOD_NAME" value="whenPOSTIsCalledThenABeerIsCreated" />
+      <option name="METHOD_NAME" value="whenDELETEIsCalledWithValidIDThenNoContentStatusIsReturned" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeerServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BeerControllerTest.whenGETListWithBeersIsCalledThenOkStatusIsReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projetoapibeer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="one.digitalinnovation.beerstock.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="one.digitalinnovation.beerstock.controller" />
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.beerstock.controller.BeerControllerTest" />
+      <option name="METHOD_NAME" value="whenGETListWithBeersIsCalledThenOkStatusIsReturned" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeerServiceTest.whenExclusionIscalledWithValidIdThenABeerShouldBeDeleted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projetoapibeer" />
       <extension name="coverage">
         <pattern>
@@ -109,7 +110,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="one.digitalinnovation.beerstock.service" />
       <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.beerstock.service.BeerServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="whenExclusionIscalledWithValidIdThenABeerShouldBeDeleted" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BeerServiceTest" />
-        <item itemvalue="JUnit.BeerControllerTest (1)" />
-        <item itemvalue="JUnit.BeerControllerTest.whenGETIsCalledWithoutRegisteredNameThenNotFoundStatusIsReturned" />
         <item itemvalue="JUnit.BeerControllerTest" />
-        <item itemvalue="JUnit.BeerControllerTest.whenPOSTIsCalledThenABeerIsCreated" />
+        <item itemvalue="JUnit.BeerControllerTest.whenDELETEIsCalledWithInvalidIDThenNotFoundStatusIsReturned" />
+        <item itemvalue="JUnit.BeerControllerTest.whenDELETEIsCalledWithValidIDThenNoContentStatusIsReturned" />
+        <item itemvalue="JUnit.BeerServiceTest.whenExclusionIscalledWithValidIdThenABeerShouldBeDeleted" />
+        <item itemvalue="JUnit.BeerControllerTest.whenGETListWithBeersIsCalledThenOkStatusIsReturned" />
       </list>
     </recent_temporary>
   </component>
