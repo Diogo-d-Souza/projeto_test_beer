@@ -36,23 +36,15 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="JUnit.BeerControllerTest">
-    <configuration name="BeerControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Unnamed">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.beerstock.BeerstockApplication" />
       <module name="projetoapibeer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="one.digitalinnovation.beerstock.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="one.digitalinnovation.beerstock.controller" />
-      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.beerstock.controller.BeerControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeerControllerTest.whenDELETEIsCalledWithInvalidIDThenNotFoundStatusIsReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BeerControllerTest.whenPATCHIsCalledToIncrementDiscountThenOKstatusIsReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projetoapibeer" />
       <extension name="coverage">
         <pattern>
@@ -62,45 +54,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="one.digitalinnovation.beerstock.controller" />
       <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.beerstock.controller.BeerControllerTest" />
-      <option name="METHOD_NAME" value="whenDELETEIsCalledWithInvalidIDThenNotFoundStatusIsReturned" />
+      <option name="METHOD_NAME" value="whenPATCHIsCalledToIncrementDiscountThenOKstatusIsReturned" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeerControllerTest.whenDELETEIsCalledWithValidIDThenNoContentStatusIsReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="projetoapibeer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="one.digitalinnovation.beerstock.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="one.digitalinnovation.beerstock.controller" />
-      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.beerstock.controller.BeerControllerTest" />
-      <option name="METHOD_NAME" value="whenDELETEIsCalledWithValidIDThenNoContentStatusIsReturned" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeerControllerTest.whenGETListWithBeersIsCalledThenOkStatusIsReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="projetoapibeer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="one.digitalinnovation.beerstock.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="one.digitalinnovation.beerstock.controller" />
-      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.beerstock.controller.BeerControllerTest" />
-      <option name="METHOD_NAME" value="whenGETListWithBeersIsCalledThenOkStatusIsReturned" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeerServiceTest.whenExclusionIscalledWithValidIdThenABeerShouldBeDeleted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BeerServiceTest.whenIncrementAfterSumIsGreatherThanMaxThenThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projetoapibeer" />
       <extension name="coverage">
         <pattern>
@@ -110,7 +70,55 @@
       </extension>
       <option name="PACKAGE_NAME" value="one.digitalinnovation.beerstock.service" />
       <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.beerstock.service.BeerServiceTest" />
-      <option name="METHOD_NAME" value="whenExclusionIscalledWithValidIdThenABeerShouldBeDeleted" />
+      <option name="METHOD_NAME" value="whenIncrementAfterSumIsGreatherThanMaxThenThrowException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeerServiceTest.whenIncrementIsCalledThenIncrementBeerStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projetoapibeer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="one.digitalinnovation.beerstock.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="one.digitalinnovation.beerstock.service" />
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.beerstock.service.BeerServiceTest" />
+      <option name="METHOD_NAME" value="whenIncrementIsCalledThenIncrementBeerStock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeerServiceTest.whenIncrementIsCalledWithInvalidIdThenThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projetoapibeer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="one.digitalinnovation.beerstock.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="one.digitalinnovation.beerstock.service" />
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.beerstock.service.BeerServiceTest" />
+      <option name="METHOD_NAME" value="whenIncrementIsCalledWithInvalidIdThenThrowException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeerServiceTest.whenIncrementIsGreatherThanMaxThenThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projetoapibeer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="one.digitalinnovation.beerstock.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="one.digitalinnovation.beerstock.service" />
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.beerstock.service.BeerServiceTest" />
+      <option name="METHOD_NAME" value="whenIncrementIsGreatherThanMaxThenThrowException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,13 +135,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="JUnit.BeerControllerTest.whenPATCHIsCalledToIncrementDiscountThenOKstatusIsReturned" />
+      <item itemvalue="JUnit.BeerServiceTest.whenIncrementAfterSumIsGreatherThanMaxThenThrowException" />
+      <item itemvalue="JUnit.BeerServiceTest.whenIncrementIsCalledThenIncrementBeerStock" />
+      <item itemvalue="JUnit.BeerServiceTest.whenIncrementIsCalledWithInvalidIdThenThrowException" />
+      <item itemvalue="JUnit.BeerServiceTest.whenIncrementIsGreatherThanMaxThenThrowException" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BeerControllerTest" />
-        <item itemvalue="JUnit.BeerControllerTest.whenDELETEIsCalledWithInvalidIDThenNotFoundStatusIsReturned" />
-        <item itemvalue="JUnit.BeerControllerTest.whenDELETEIsCalledWithValidIDThenNoContentStatusIsReturned" />
-        <item itemvalue="JUnit.BeerServiceTest.whenExclusionIscalledWithValidIdThenABeerShouldBeDeleted" />
-        <item itemvalue="JUnit.BeerControllerTest.whenGETListWithBeersIsCalledThenOkStatusIsReturned" />
+        <item itemvalue="JUnit.BeerControllerTest.whenPATCHIsCalledToIncrementDiscountThenOKstatusIsReturned" />
+        <item itemvalue="JUnit.BeerServiceTest.whenIncrementIsCalledWithInvalidIdThenThrowException" />
+        <item itemvalue="JUnit.BeerServiceTest.whenIncrementAfterSumIsGreatherThanMaxThenThrowException" />
+        <item itemvalue="JUnit.BeerServiceTest.whenIncrementIsGreatherThanMaxThenThrowException" />
+        <item itemvalue="JUnit.BeerServiceTest.whenIncrementIsCalledThenIncrementBeerStock" />
       </list>
     </recent_temporary>
   </component>
